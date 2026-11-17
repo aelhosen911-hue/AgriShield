@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriShield (AgroVision) — Proactive Precision Agriculture & Foliar Protection</title>
+  
+  <!-- Google Fonts: Outfit, Inter, Cairo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons for clean UI symbols -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- =========================================================
+       NAVIGATION HEADER
+       ========================================================= -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#hero" class="brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <div>
+          <div class="brand-title">AgriShield <span style="font-size:0.85rem; color:var(--primary-light); font-weight:600;">(AgroVision)</span></div>
+          <div class="brand-subtitle" data-i18n="domain_tag">Precision Agriculture & Edge AI</div>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active" data-i18n="nav_overview">Overview</a></li>
+          <li><a href="#lab-3d" class="nav-link" data-i18n="nav_lab">3D Anatomy Lab</a></li>
+          <li><a href="#pillars" class="nav-link" data-i18n="nav_pillars">System Pillars</a></li>
+          <li><a href="#architecture" class="nav-link" data-i18n="nav_arch">Multimodal Arch</a></li>
+          <li><a href="#demos" class="nav-link" data-i18n="nav_demos">Live Simulators</a></li>
+          <li><a href="#innovation" class="nav-link" data-i18n="nav_impact">Academic Impact</a></li>
+          <li><a href="#gallery" class="nav-link" data-i18n="nav_gallery">Visual Gallery</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Language Switcher Toggle -->
+        <button id="btn-lang-toggle" class="btn-lang" title="Toggle Arabic / English">
+          <i class="fa-solid fa-globe"></i>
+          <span id="lang-btn-text">العربية</span>
+        </button>
+
+        <a href="#demos" class="btn-primary" data-i18n="btn_try_scanner">
+          <i class="fa-solid fa-crosshairs"></i> Launch AI Scanner
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================
+         HERO SECTION
+         ========================================================= -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-text-col">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span data-i18n="hero_badge">Graduation Project 2026 • Edge AI & Microclimate Fusion</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="gradient-text" data-i18n="hero_title_1">Proactive Foliar Protection</span><br>
+            <span class="gradient-text-gold" data-i18n="hero_title_2">Before Symptoms Appear.</span>
+          </h1>
+
+          <p class="hero-subtitle" data-i18n="hero_desc">
+            AgriShield transforms crop health from reactive post-infection chemical flooding into proactive early foliar protection — orchestrating time-series microclimate forecasting, edge deep learning vision, and deterministic soil chemistry with certified Human-in-the-Loop oversight.
+          </p>
+
+          <div class="hero-tags">
+            <span class="hero-tag"><i class="fa-solid fa-cube"></i> <span data-i18n="hero_tag_1">Multimodal Data Fusion</span></span>
+            <span class="hero-tag"><i class="fa-solid fa-flask"></i> <span data-i18n="hero_tag_2">Deterministic NPK Titration</span></span>
+            <span class="hero-tag"><i class="fa-solid fa-microchip"></i> <span data-i18n="hero_tag_3">Edge PyTorch Vision</span></span>
+            <span class="hero-tag"><i class="fa-solid fa-user-check"></i> <span data-i18n="hero_tag_4">Certified Agronomist Gate</span></span>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#lab-3d" class="btn-primary">
+              <i class="fa-solid fa-cube"></i> <span data-i18n="btn_explore_3d">Explore 3D Plant Anatomy</span>
+            </a>
+            <a href="assets/AgriShield-Proposal.pdf" target="_blank" class="btn-outline">
+              <i class="fa-solid fa-file-pdf"></i> <span data-i18n="btn_read_proposal">Download Proposal PDF</span>
+            </a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <div class="stat-val"><span data-i18n="stat_1_val">97.8</span>%</div>
+              <div class="stat-label" data-i18n="stat_1_lbl">Diagnostic Accuracy</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-val"><span data-i18n="stat_2_val">&lt;140</span>ms</div>
+              <div class="stat-label" data-i18n="stat_2_lbl">Edge Latency (ms)</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-val"><span data-i18n="stat_3_val">35</span>%</div>
+              <div class="stat-label" data-i18n="stat_3_lbl">Chemical Runoff Reduction</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-val"><span data-i18n="stat_4_val">100</span>%</div>
+              <div class="stat-label" data-i18n="stat_4_lbl">HITL High-Risk Audited</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Spotlight Card (Young Sprout Asset) -->
+        <div class="hero-visual-card">
+          <img src="assets/plant_seedling_hero.jpg" alt="AgriShield Seedling Emergence">
+          <div class="hero-visual-overlay"></div>
+          <div class="hero-visual-hud">
+            <div class="hud-info">
+              <h4>Vegetative Emergence Stage</h4>
+              <p>Continuous edge microclimate & foliar health stream</p>
+            </div>
+            <span class="hud-badge"><i class="fa-solid fa-circle-check"></i> IMMUNITY OPTIMAL</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3D ANIMATION & INTERACTIVE PLANT ANATOMY LAB (MAIN FEATURE)
+         ========================================================= -->
+    <section id="lab-3d" class="lab-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-badge" data-i18n="lab_badge">WebGL Interactive 3D Digital Twin</div>
+          <h2 class="section-title" data-i18n="lab_title">Interactive Plant Anatomy & AI Scanning Chamber</h2>
+          <p class="section-desc" data-i18n="lab_desc">
+            Rotate, dissect, and inspect the plant anatomy in 3D space. Explore how AgriShield integrates foliar computer vision, vascular fluidics, and rhizosphere soil chemistry.
+          </p>
+        </div>
+
+        <!-- 3D Canvas Viewport Box -->
+        <div id="scene-viewport" class="scene-container">
+          <canvas id="three-canvas"></canvas>
+
+          <!-- Top HUD Overlay -->
+          <div class="scene-hud-top">
+            <div class="hud-title-card">
+              <div class="hud-radar"><i class="fa-solid fa-crosshairs"></i></div>
+              <div>
+                <h5>AgriShield WebGL 3D Anatomy Chamber</h5>
+                <span>Interactive Digital Twin • Click any organ to focus & inspect</span>
+              </div>
+            </div>
+
+            <div class="hud-actions-top">
+              <button id="btn-reset-view" class="btn-scene-icon" title="Reset Camera View">
+                <i class="fa-solid fa-arrows-rotate"></i>
+              </button>
+              <button id="btn-fullscreen" class="btn-scene-icon" title="Toggle Fullscreen">
+                <i class="fa-solid fa-expand"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Feature Toggle Pills Sidebar -->
+          <div class="scene-toggles-sidebar">
+            <button id="toggle-laser" class="toggle-pill active" title="Toggle Holographic AI Laser Scanner">
+              <i class="fa-solid fa-bolt"></i> <span data-i18n="toggle_laser">AI Laser Scanner</span>
+            </button>
+            <button id="toggle-particles" class="toggle-pill active" title="Toggle Microclimate Moisture Mist">
+              <i class="fa-solid fa-droplet"></i> <span data-i18n="toggle_particles">Microclimate Mist</span>
+            </button>
+            <button id="toggle-spores" class="toggle-pill" title="Simulate Spore Outbreak">
+              <i class="fa-solid fa-triangle-exclamation"></i> <span data-i18n="toggle_spores">Spore Outbreak Sim</span>
+            </button>
+            <button id="toggle-rotate" class="toggle-pill" title="Toggle Auto-Orbit Camera">
+              <i class="fa-solid fa-rotate"></i> <span data-i18n="toggle_rotate">Auto-Orbit</span>
+            </button>
+          </div>
+
+          <!-- Live Organ Telemetry Card (Opens upon clicking in 3D) -->
+          <div id="scene-telemetry-hud" class="scene-telemetry-card">
+            <div class="telemetry-header">
+              <h4 id="telemetry-name">Plant Organ Anatomy</h4>
+              <span id="telemetry-tag" class="telemetry-badge">Active Sensor</span>
+            </div>
+            <div class="telemetry-body">
+              <p id="telemetry-desc">Click any organ or floating card in the 3D scene to display real-time botanical parameters and AI diagnostic classification.</p>
+              <div id="telemetry-metrics" class="telemetry-metrics">
+                <div class="metric-box">
+                  <span>Diagnostic Mode</span>
+                  <strong>Edge Multimodal</strong>
+                </div>
+                <div class="metric-box">
+                  <span>Pathogen State</span>
+                  <strong>Healthy / Non-Infected</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3D Camera Presets Bar -->
+          <div class="scene-presets-bar">
+            <button class="preset-btn active" data-preset="overview">
+              <i class="fa-solid fa-leaf"></i> <span data-i18n="preset_overview">Consolidated View</span>
+            </button>
+            <button class="preset-btn" data-preset="exploded">
+              <i class="fa-solid fa-burst"></i> <span data-i18n="preset_exploded">Explode 3D Anatomy</span>
+            </button>
+            <button class="preset-btn" data-preset="leaves">
+              <i class="fa-solid fa-eye"></i> <span data-i18n="preset_leaves">Foliar Canopy Zoom</span>
+            </button>
+            <button class="preset-btn" data-preset="stem">
+              <i class="fa-solid fa-circle-nodes"></i> <span data-i18n="preset_stem">Vascular Cross-Section</span>
+            </button>
+            <button class="preset-btn" data-preset="roots">
+              <i class="fa-solid fa-wheat-awn"></i> <span data-i18n="preset_roots">Rhizosphere & Roots</span>
+            </button>
+            <button class="preset-btn" data-preset="gallery">
+              <i class="fa-solid fa-images"></i> <span data-i18n="preset_gallery">3D Image Carousel</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 5 Interactive Organ Breakdown Cards Below Canvas -->
+        <div class="cards-breakdown-grid">
+          <!-- Card 1 -->
+          <div class="organ-card" data-target-preset="leaves">
+            <div class="organ-card-thumb">
+              <img src="assets/card_foliar_leaf.jpg" alt="Foliar Surface">
+            </div>
+            <div class="organ-card-body">
+              <div class="organ-card-tag">Organ 1 • Foliar</div>
+              <h5>Leaf Micro-Surface</h5>
+              <p>Stomata & cuticle monitored for fungal spore attachment.</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="organ-card" data-target-preset="leaves">
+            <div class="organ-card-thumb">
+              <img src="assets/card_stem_joint.jpg" alt="Shoot Junction">
+            </div>
+            <div class="organ-card-body">
+              <div class="organ-card-tag">Organ 2 • Node</div>
+              <h5>Shoot & Branch Junction</h5>
+              <p>Structural junction for foliar transpiration & fluidic load.</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="organ-card" data-target-preset="stem">
+            <div class="organ-card-thumb">
+              <img src="assets/card_stem_cross_section.jpg" alt="Stem Cross Section">
+            </div>
+            <div class="organ-card-body">
+              <div class="organ-card-tag">Organ 3 • Cellular</div>
+              <h5>Stem Honeycomb Slice</h5>
+              <p>Parenchyma honeycomb matrix & cambium cellular health.</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="organ-card" data-target-preset="stem">
+            <div class="organ-card-thumb">
+              <img src="assets/card_vascular_bundle.jpg" alt="Vascular Bundles">
+            </div>
+            <div class="organ-card-body">
+              <div class="organ-card-tag">Organ 4 • Fluidics</div>
+              <h5>Vascular Bundles</h5>
+              <p>Xylem & phloem conduits driving sap flow & mineral transit.</p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="organ-card" data-target-preset="roots">
+            <div class="organ-card-thumb">
+              <img src="assets/card_roots_rhizosphere.jpg" alt="Rhizosphere">
+            </div>
+            <div class="organ-card-body">
+              <div class="organ-card-tag">Organ 5 • Soil Interface</div>
+              <h5>Rhizosphere & Roots</h5>
+              <p>Fine root hairs absorbing calibrated NPK & soil moisture.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SYSTEM PILLARS & EXECUTIVE SUMMARY (PROPOSAL SECTIONS 1 & 2)
+         ========================================================= -->
+    <section id="pillars" class="pillars-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-badge" data-i18n="pillars_badge">Three Operational Pillars (ركائز النظام)</div>
+          <h2 class="section-title" data-i18n="pillars_title">Engineered for Proactive Field Immunity</h2>
+          <p class="section-desc" data-i18n="pillars_desc">
+            Rooted in the official project proposal, AgriShield operates on three synchronized pillars to replace late reactive treatment with early mathematical precision.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <!-- Pillar 1 -->
+          <div class="pillar-card pillar-1">
+            <span class="pillar-num">01</span>
+            <div class="pillar-icon-box">
+              <i class="fa-solid fa-cloud-sun-rain"></i>
+            </div>
+            <h3 data-i18n="p1_title">1. Predictive Microclimate Analytics</h3>
+            <p data-i18n="p1_desc">
+              Continuous real-time ingestion of microclimate indicators (Air Temperature, Relative Humidity, and Leaf Wetness Duration) to model pathogen spore incubation curves days before any visible lesions develop.
+            </p>
+            <ul class="pillar-features">
+              <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="p1_f1">Leaf Wetness Duration (LWD) integration</span></li>
+              <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="p1_f2">Fungal/bacterial outbreak risk forecasting</span></li>
+              <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="p1_f3">Proactive preventative spraying window</span></li>
+            </ul>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="pillar-card pillar-2">
+            <span class="pillar-num">02</span>
+            <div class="pillar-icon-box">
+              <i class="fa-solid fa-camera"></i>
+            </div>
+            <h3 data-i18n="p2_title">2. Edge Vision & Foliar Pathology</h3>
+            <p data-i18n="p2_desc">
+              Custom deep convolutional networks (PyTorch / TensorFlow) deployed on edge mobile devices, delivering instant offline foliar disease classification with calibrated confidence scores.
+            </p>
+            <ul class="pillar-features">
+              <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="p2_f1">Instant lesion detection from mobile camera</span></li>
+              <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="p2_f2">Multi-class foliar pathogen taxonomy</span></li>
+              <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="p2_f3">Calibrated confidence thresholds & bounding boxes</span></li>
+            </ul>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="pillar-card pillar-3">
+            <span class="pillar-num">03</span>
+            <div class="pillar-icon-box">
+              <i class="fa-solid fa-flask-vial"></i>
+            </div>
+            <h3 data-i18n="p3_title">3. Deterministic Soil & Chemical Titration</h3>
+            <p data-i18n="p3_desc">
+              Strict mathematical engine computing micro-dosed NPK fertilization ratios and pesticide volume based on field dimensions, crop growth stage, and dynamic soil pH/fertility laboratory metrics.
+            </p>
+            <ul class="pillar-features">
+              <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="p3_f1">Precision NPK element calculation</span></li>
+              <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="p3_f2">Zero chemical leaf burn or overspray</span></li>
+              <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="p3_f3">Groundwater ecological runoff prevention</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Paradigm Shift Comparison Box (Proposal Problem vs AgriShield) -->
+        <div class="paradigm-box">
+          <div class="paradigm-side old">
+            <h4 data-i18n="paradigm_old_title">Reactive Management (Legacy Paradigm)</h4>
+            <p data-i18n="paradigm_old_desc">
+              Farmers inspect crops manually only after severe chlorosis and wilting appear. Chemical pesticides are dumped indiscriminately, burning foliage, contaminating groundwater, and driving high financial losses.
+            </p>
+          </div>
+
+          <div class="paradigm-divider">
+            <div class="vs-badge">VS</div>
+          </div>
+
+          <div class="paradigm-side new">
+            <h4 data-i18n="paradigm_new_title">AgriShield Proactive Decision-Support (New Paradigm)</h4>
+            <p data-i18n="paradigm_new_desc">
+              Predicts pathogen incubation prior to visible symptoms. Prescribes calibrated micro-doses verified by certified agronomists, reducing chemical waste by 35% while maximizing crop yield.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         MULTIMODAL ARCHITECTURE 5-TIER EXPLORER (PROPOSAL SECTION 4)
+         ========================================================= -->
+    <section id="architecture" class="arch-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-badge" data-i18n="arch_badge">Multimodal System Architecture</div>
+          <h2 class="section-title" data-i18n="arch_title">5-Tier Distributed Technical Pipeline</h2>
+          <p class="section-desc" data-i18n="arch_desc">
+            Bridging field sensors, edge neural networks, deterministic agronomy algorithms, and certified agronomist web gateways into a unified decision ecosystem.
+          </p>
+        </div>
+
+        <div class="arch-tiers-wrapper">
+          <!-- Tier 1 -->
+          <div class="arch-tier-item">
+            <div class="tier-header-row">
+              <div class="tier-left">
+                <span class="tier-badge">TIER 1</span>
+                <span class="tier-title">Client & Field Tier</span>
+              </div>
+              <span class="tier-tech-chip">Mobile App (Flutter) / Responsive Dashboard</span>
+            </div>
+            <div class="tier-details-expand">
+              <p>Responsible for capturing foliar leaf photography directly in the field, logging field coordinates, surface area, and telemetry alerts for farmers.</p>
+              <div class="tier-flow-box">
+                <span>Inputs: Camera Frame, GPS, Crop Profile</span>
+                <strong>Outputs: Normalized Sensor Packet, Edge Cache</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tier 2 -->
+          <div class="arch-tier-item">
+            <div class="tier-header-row">
+              <div class="tier-left">
+                <span class="tier-badge">TIER 2</span>
+                <span class="tier-title">Predictive Time-Series Ingestion</span>
+              </div>
+              <span class="tier-tech-chip">Microclimate Ingestion Pipeline</span>
+            </div>
+            <div class="tier-details-expand">
+              <p>Aggregates ambient temperature, relative humidity, and leaf wetness duration (LWD) streams to model fungal and bacterial spore proliferation curves.</p>
+              <div class="tier-flow-box">
+                <span>Inputs: Hourly Weather Stream, Sensor Nodes</span>
+                <strong>Outputs: Fungal Incubation Index, Threat Level</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tier 3 -->
+          <div class="arch-tier-item">
+            <div class="tier-header-row">
+              <div class="tier-left">
+                <span class="tier-badge">TIER 3</span>
+                <span class="tier-title">Vision Diagnostic Tier</span>
+              </div>
+              <span class="tier-tech-chip">Custom Deep Learning (PyTorch / TensorFlow)</span>
+            </div>
+            <div class="tier-details-expand">
+              <p>Extracts localized visual pathology features from foliar photos, classifying plant diseases and computing mathematical Confidence Scores for each condition.</p>
+              <div class="tier-flow-box">
+                <span>Inputs: RGB Foliar Image, Cropped Lesion</span>
+                <strong>Outputs: Disease Class, Confidence Score, Heatmap</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tier 4 -->
+          <div class="arch-tier-item">
+            <div class="tier-header-row">
+              <div class="tier-left">
+                <span class="tier-badge">TIER 4</span>
+                <span class="tier-title">Deterministic Logic Tier</span>
+              </div>
+              <span class="tier-tech-chip">Agronomic Calculation Algorithms</span>
+            </div>
+            <div class="tier-details-expand">
+              <p>Deterministic mathematical calculations formulating chemical titration, NPK fertilizer ratios, and spray volume based on soil chemistry laboratory tests.</p>
+              <div class="tier-flow-box">
+                <span>Inputs: Soil pH, NPK Ppm, Field Area (Ha)</span>
+                <strong>Outputs: Calibrated Dosage Recipe (Urea, DAP, Potash)</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tier 5 -->
+          <div class="arch-tier-item">
+            <div class="tier-header-row">
+              <div class="tier-left">
+                <span class="tier-badge">TIER 5</span>
+                <span class="tier-title">HITL Expert Portal</span>
+              </div>
+              <span class="tier-tech-chip">Web Portal for Certified Agronomists</span>
+            </div>
+            <div class="tier-details-expand">
+              <p>A Human-in-the-Loop review checkpoint for validating low-confidence AI predictions or highly toxic pesticide treatments prior to field spraying.</p>
+              <div class="tier-flow-box">
+                <span>Inputs: Flagged Anomaly Cases, Weather Logs</span>
+                <strong>Outputs: Agronomist Approval Stamp, Dosage Adjustment</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         INTERACTIVE LIVE DEMOS (SIMULATING CORE SUBSYSTEMS)
+         ========================================================= -->
+    <section id="demos" class="demos-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-badge" data-i18n="demos_badge">Live Interactive Simulators</div>
+          <h2 class="section-title" data-i18n="demos_title">Experience AgriShield Engines in Action</h2>
+          <p class="section-desc" data-i18n="demos_desc">
+            Test each core subsystem directly in your browser: AI foliar scanner, microclimate disease predictor, NPK fertilizer calculator, and human-in-the-loop review station.
+          </p>
+        </div>
+
+        <!-- Demo Nav Tabs -->
+        <div class="demo-tabs-nav">
+          <button class="demo-tab-btn active" data-tab="scanner">
+            <i class="fa-solid fa-camera"></i> <span data-i18n="tab_scanner">AI Foliar Scanner</span>
+          </button>
+          <button class="demo-tab-btn" data-tab="climate">
+            <i class="fa-solid fa-cloud-sun"></i> <span data-i18n="tab_climate">Microclimate Predictor</span>
+          </button>
+          <button class="demo-tab-btn" data-tab="titration">
+            <i class="fa-solid fa-calculator"></i> <span data-i18n="tab_titration">NPK Titration Engine</span>
+          </button>
+          <button class="demo-tab-btn" data-tab="hitl">
+            <i class="fa-solid fa-user-shield"></i> <span data-i18n="tab_hitl">HITL Expert Station</span>
+          </button>
+        </div>
+
+        <!-- ----------------------------------------------------
+             DEMO PANEL 1: AI FOLIAR SCANNER
+             ---------------------------------------------------- -->
+        <div id="panel-scanner" class="demo-panel active">
+          <div class="scanner-grid">
+            <div>
+              <div class="scanner-view-box">
+                <img id="scanner-target-img" src="assets/card_foliar_leaf.jpg" alt="Leaf Scanner Target">
+                <div class="scanner-laser-line"></div>
+                <div class="scanner-bounding-box">
+                  <span class="scanner-bounding-tag">AI LOCUS #1</span>
+                </div>
+              </div>
+
+              <!-- Leaf Sample Selector -->
+              <div style="margin-top:14px; font-size:0.8rem; color:var(--text-muted);">Select sample leaf diagnostic lesion:</div>
+              <div class="sample-leaf-picker">
+                <div class="sample-thumb active" data-sample="sample-1" title="Early Blight (Alternaria solani)">
+                  <img src="assets/card_foliar_leaf.jpg" alt="Sample 1">
+                </div>
+                <div class="sample-thumb" data-sample="sample-2" title="Healthy Foliage">
+                  <img src="assets/card_stem_joint.jpg" alt="Sample 2">
+                </div>
+                <div class="sample-thumb" data-sample="sample-3" title="Bacterial Wilt Risk (Low AI Confidence)">
+                  <img src="assets/card_stem_cross_section.jpg" alt="Sample 3">
+                </div>
+                <div class="sample-thumb" data-sample="sample-4" title="Salinity & Osmotic Stress">
+                  <img src="assets/card_roots_rhizosphere.jpg" alt="Sample 4">
+                </div>
+              </div>
+            </div>
+
+            <!-- Diagnostics Readout -->
+            <div class="scanner-telemetry-col">
+              <div class="diag-result-card">
+                <div class="diag-header">
+                  <div>
+                    <span style="font-size:0.75rem; color:var(--cyan); text-transform:uppercase; font-weight:700;">Diagnostic Classification</span>
+                    <h3 id="scanner-disease-name" style="font-size:1.25rem; margin-top:2px;">Early Blight (Alternaria solani)</h3>
+                  </div>
+                  <span id="scanner-severity" class="telemetry-badge">Moderate (Stage 2)</span>
+                </div>
+
+                <div class="confidence-bar-wrapper">
+                  <div class="confidence-labels">
+                    <span>Model Confidence Calibration</span>
+                    <strong id="scanner-conf-val" style="color:var(--primary-light);">96.8%</strong>
+                  </div>
+                  <div class="confidence-track">
+                    <div id="scanner-conf-fill" class="confidence-fill"></div>
+                  </div>
+                </div>
+
+                <div class="diag-prescription-box">
+                  <div style="font-size:0.75rem; color:var(--text-dim); text-transform:uppercase; font-weight:700; margin-bottom:4px;">Recommended Prescriptive Spray</div>
+                  <p id="scanner-rx" style="font-size:0.85rem; color:#ffffff; font-weight:600;">Copper Hydroxide 77% WP (2.5 g/L) + Mancozeb (2 g/L)</p>
+                </div>
+
+                <div class="hitl-alert-strip">
+                  <i class="fa-solid fa-shield-virus"></i>
+                  <span id="scanner-hitl-status">NORMAL: Calibrated confident detection. Auto-approved.</span>
+                </div>
+              </div>
+
+              <div style="font-size:0.78rem; color:var(--text-muted); line-height:1.5;">
+                <i class="fa-solid fa-circle-info" style="color:var(--cyan);"></i> AgriShield's Edge AI runs convolution feature extraction on-device in under 140ms, preventing cloud latency in remote agricultural zones.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------------------------------------
+             DEMO PANEL 2: MICROCLIMATE PREDICTOR
+             ---------------------------------------------------- -->
+        <div id="panel-climate" class="demo-panel">
+          <div class="microclimate-grid">
+            <div class="controls-col">
+              <!-- Slider 1: Temperature -->
+              <div class="slider-group">
+                <div class="slider-header">
+                  <span>Ambient Air Temperature (°C)</span>
+                  <strong id="val-temp">24 °C</strong>
+                </div>
+                <input type="range" id="input-temp" class="range-input" min="10" max="40" step="1" value="24">
+              </div>
+
+              <!-- Slider 2: Relative Humidity -->
+              <div class="slider-group">
+                <div class="slider-header">
+                  <span>Relative Humidity (%)</span>
+                  <strong id="val-humidity">85 %</strong>
+                </div>
+                <input type="range" id="input-humidity" class="range-input" min="20" max="100" step="1" value="85">
+              </div>
+
+              <!-- Slider 3: Leaf Wetness Duration -->
+              <div class="slider-group">
+                <div class="slider-header">
+                  <span>Leaf Wetness Duration (LWD in hours)</span>
+                  <strong id="val-lwd">14 hrs</strong>
+                </div>
+                <input type="range" id="input-lwd" class="range-input" min="0" max="24" step="1" value="14">
+              </div>
+
+              <div style="font-size:0.82rem; color:var(--text-muted); line-height:1.6; background:rgba(0,0,0,0.3); padding:14px; border-radius:8px;">
+                <strong style="color:var(--cyan); display:block; margin-bottom:4px;">Epidemiological Rationale:</strong>
+                Fungal pathogens (such as <em>Alternaria</em> and <em>Phytophthora</em>) require free water films on the leaf surface (LWD > 10 hours) coupled with temperatures of 18–28°C to breach epidermal cell walls.
+              </div>
+            </div>
+
+            <div class="risk-gauge-box">
+              <span style="font-size:0.8rem; color:var(--text-muted); text-transform:uppercase; font-weight:700;">Fungal Disease Risk Index (FDRI)</span>
+              <div id="gauge-circle" class="gauge-circle">
+                <span id="gauge-risk-val" class="gauge-val">76%</span>
+                <span id="gauge-risk-status" class="gauge-status" style="color:var(--rose);">CRITICAL OUTBREAK</span>
+              </div>
+              <div style="font-size:0.85rem; margin-bottom:8px;">
+                <span style="color:var(--text-muted);">Incubation Timeline:</span>
+                <strong id="calc-incubation" style="color:#ffffff;">Foliar lesions emerging in 24 - 48 hrs!</strong>
+              </div>
+              <div style="font-size:0.82rem; color:var(--cyan);">
+                <i class="fa-solid fa-bell"></i> <span id="calc-proactive-action">Immediate systemic fungicide intervention authorized.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------------------------------------
+             DEMO PANEL 3: NPK TITRATION CALCULATOR
+             ---------------------------------------------------- -->
+        <div id="panel-titration" class="demo-panel">
+          <div class="titration-grid">
+            <div>
+              <div class="input-grid-2">
+                <div class="form-field">
+                  <label>Field Surface Area (Hectares)</label>
+                  <input type="number" id="input-area" class="form-input" min="0.5" max="500" step="0.5" value="5">
+                </div>
+                <div class="form-field">
+                  <label>Target Crop Specie</label>
+                  <select id="input-crop" class="form-select">
+                    <option value="potato">Potato (Solanum tuberosum)</option>
+                    <option value="tomato">Tomato (Lycopersicon esculentum)</option>
+                    <option value="citrus">Citrus (Citrus sinensis)</option>
+                    <option value="wheat">Wheat (Triticum aestivum)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="input-grid-2">
+                <div class="form-field">
+                  <label>Soil pH Measurement</label>
+                  <input type="number" id="input-ph" class="form-input" min="4.5" max="9.0" step="0.1" value="6.8">
+                </div>
+                <div class="form-field">
+                  <label>Current Nitrogen (N ppm)</label>
+                  <input type="number" id="input-n" class="form-input" min="0" max="150" value="30">
+                </div>
+              </div>
+
+              <div class="input-grid-2">
+                <div class="form-field">
+                  <label>Current Phosphorus (P ppm)</label>
+                  <input type="number" id="input-p" class="form-input" min="0" max="100" value="18">
+                </div>
+                <div class="form-field">
+                  <label>Current Potassium (K ppm)</label>
+                  <input type="number" id="input-k" class="form-input" min="0" max="400" value="140">
+                </div>
+              </div>
+            </div>
+
+            <!-- Titration Results Card -->
+            <div class="calc-summary-card">
+              <h4 style="font-size:1.05rem; margin-bottom:12px; display:flex; align-items:center; gap:8px;">
+                <i class="fa-solid fa-vial-circle-check" style="color:var(--primary);"></i> Deterministic Prescription
+              </h4>
+
+              <table class="results-table">
+                <thead>
+                  <tr>
+                    <th>Fertilizer / Carrier</th>
+                    <th>Calibrated Quantity</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Urea (46% Nitrogen)</td>
+                    <td id="res-urea" style="font-weight:700; color:var(--primary-light);">1,467 kg</td>
+                  </tr>
+                  <tr>
+                    <td>DAP (18-46-0 Phosphorus)</td>
+                    <td id="res-dap" style="font-weight:700; color:var(--cyan);">635 kg</td>
+                  </tr>
+                  <tr>
+                    <td>Potassium Sulfate (50% K2O)</td>
+                    <td id="res-potash" style="font-weight:700; color:#fbbf24;">1,080 kg</td>
+                  </tr>
+                  <tr>
+                    <td>Target Spray Water Carrier</td>
+                    <td id="res-water" style="font-weight:700; color:#ffffff;">2,000 L</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="savings-banner">
+                <div>
+                  <div style="font-size:0.75rem; text-transform:uppercase; color:var(--text-dim); font-weight:700;">Chemical Waste Avoided</div>
+                  <strong id="res-saved-kg" style="font-size:1.1rem; color:var(--primary-glow);">1,114 kg (-35% waste)</strong>
+                </div>
+                <i class="fa-solid fa-leaf" style="font-size:1.5rem; color:var(--primary-light);"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------------------------------------
+             DEMO PANEL 4: HITL AGRONOMIST VALIDATION STATION
+             ---------------------------------------------------- -->
+        <div id="panel-hitl" class="demo-panel">
+          <div class="hitl-grid">
+            <div class="hitl-queue-list">
+              <span style="font-size:0.8rem; color:var(--text-muted); font-weight:700; text-transform:uppercase;">Flagged Review Queue (2)</span>
+              
+              <div class="hitl-queue-item active" data-case="case-101">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                  <strong style="font-size:0.85rem;">CASE #101</strong>
+                  <span class="queue-tag tag-review">CONFIDENCE &lt; 85%</span>
+                </div>
+                <div style="font-size:0.78rem; color:var(--text-muted);">Solanum tuberosum • Early Blight</div>
+              </div>
+
+              <div class="hitl-queue-item" data-case="case-102">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                  <strong style="font-size:0.85rem;">CASE #102</strong>
+                  <span class="queue-tag tag-urgent">HIGH-TOXICITY ALERT</span>
+                </div>
+                <div style="font-size:0.78rem; color:var(--text-muted);">Lycopersicon esculentum • Late Blight</div>
+              </div>
+            </div>
+
+            <!-- HITL Workbench -->
+            <div class="hitl-workbench">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; border-bottom:1px solid var(--border-subtle); padding-bottom:10px;">
+                <div>
+                  <span id="hitl-case-id" style="font-size:0.75rem; color:var(--cyan); font-weight:700;">CASE #101</span>
+                  <h4 id="hitl-crop-name" style="font-size:1.1rem; margin-top:2px;">Solanum tuberosum (Potato - Russet)</h4>
+                </div>
+                <span class="telemetry-badge"><i class="fa-solid fa-user-lock"></i> Certified Agronomist Gate</span>
+              </div>
+
+              <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;">
+                <div>
+                  <span style="font-size:0.75rem; color:var(--text-dim); display:block;">AI Diagnostic Finding</span>
+                  <strong id="hitl-finding" style="font-size:0.88rem; color:#ffffff;">Early Blight (Alternaria solani) with borderline chlorosis</strong>
+                </div>
+                <div>
+                  <span style="font-size:0.75rem; color:var(--text-dim); display:block;">Edge Confidence Metric</span>
+                  <strong id="hitl-conf" style="font-size:0.88rem; color:var(--amber);">81.4% (Threshold &lt;85% Triggered)</strong>
+                </div>
+              </div>
+
+              <div style="margin-bottom:16px;">
+                <span style="font-size:0.75rem; color:var(--text-dim); display:block;">Recommended Chemical Prescription</span>
+                <p id="hitl-rx" style="font-size:0.88rem; color:var(--primary-light); font-weight:600; margin-top:2px;">
+                  Difenoconazole (250 EC) @ 250 mL/ha
+                </p>
+              </div>
+
+              <div style="margin-bottom:20px; font-size:0.8rem; color:var(--text-muted);">
+                <span>Field Microclimate:</span> <strong id="hitl-weather" style="color:#ffffff;">24°C, 88% RH, 16h Leaf Wetness</strong>
+              </div>
+
+              <div class="workbench-actions">
+                <button id="btn-approve-rx" class="btn-primary" style="font-size:0.88rem;">
+                  <i class="fa-solid fa-signature"></i> Sign & Approve Prescription
+                </button>
+                <button class="btn-outline" style="font-size:0.88rem;" onclick="alert('Case referred to senior pathology laboratory.');">
+                  <i class="fa-solid fa-flask"></i> Request Lab Re-test
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         ACADEMIC INNOVATION & DELIVERABLES (PROPOSAL SECTIONS 5 & 6)
+         ========================================================= -->
+    <section id="innovation" class="innovation-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-badge" data-i18n="inno_badge">Innovation & Academic Value</div>
+          <h2 class="section-title" data-i18n="inno_title">Scientific Impact & Deliverables</h2>
+          <p class="section-desc" data-i18n="inno_desc">
+            Demonstrating real-world feasibility, technological innovation, and ecological protection for graduation capstone standards.
+          </p>
+        </div>
+
+        <div class="innovation-cards-grid">
+          <div class="inno-card">
+            <div class="inno-card-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <h3 data-i18n="inno_1_title">Multimodal Data Fusion</h3>
+            <p data-i18n="inno_1_desc">
+              Synchronous synthesis of unstructured visual imagery with continuous microclimate time-series and laboratory soil chemistry in a unified decision platform.
+            </p>
+          </div>
+
+          <div class="inno-card">
+            <div class="inno-card-icon"><i class="fa-solid fa-user-shield"></i></div>
+            <h3 data-i18n="inno_2_title">Human-in-the-Loop Safety Gate</h3>
+            <p data-i18n="inno_2_desc">
+              Eliminating catastrophic autonomous AI failure modes by gating high-toxicity or low-confidence treatments through certified agronomist portals before spraying.
+            </p>
+          </div>
+
+          <div class="inno-card">
+            <div class="inno-card-icon"><i class="fa-solid fa-seedling"></i></div>
+            <h3 data-i18n="inno_3_title">Ecological & Financial ROI</h3>
+            <p data-i18n="inno_3_desc">
+              Reduces smallholder farmer operational expenditures by cutting redundant chemical purchases by ~35% and preserving beneficial soil microbiome.
+            </p>
+          </div>
+        </div>
+
+        <!-- Deliverables Table from Proposal Section 6 -->
+        <div class="deliverables-table-wrap">
+          <table class="deliverables-table">
+            <thead>
+              <tr>
+                <th>Deliverable (مخرجات المشروع)</th>
+                <th>Technical Specification</th>
+                <th>Primary Stakeholder</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Mobile Field Application</strong></td>
+                <td>Flutter, offline-first SQLite, camera ingestion, microclimate advisory</td>
+                <td>Field Farmers & Scouts</td>
+                <td><span class="status-badge-done"><i class="fa-solid fa-check"></i> Completed</span></td>
+              </tr>
+              <tr>
+                <td><strong>Certified Agronomist Web Portal</strong></td>
+                <td>Vue/React Dashboard, HITL approval queue, audit telemetry</td>
+                <td>Certified Agronomists</td>
+                <td><span class="status-badge-done"><i class="fa-solid fa-check"></i> Completed</span></td>
+              </tr>
+              <tr>
+                <td><strong>Deterministic Dosage Engine</strong></td>
+                <td>Mathematical NPK titration, soil pH calibration, spray volume logic</td>
+                <td>Agronomy Labs</td>
+                <td><span class="status-badge-done"><i class="fa-solid fa-check"></i> Validated</span></td>
+              </tr>
+              <tr>
+                <td><strong>Empirical Academic Research</strong></td>
+                <td>Comprehensive evaluation of Edge CNN accuracy & time-series latency</td>
+                <td>Graduation Board</td>
+                <td><span class="status-badge-done"><i class="fa-solid fa-check"></i> Documented</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Proposal PDF Download Box -->
+        <div class="proposal-cta-card">
+          <div class="proposal-info">
+            <h3 data-i18n="proposal_cta_title">Download Full Academic Proposal PDF</h3>
+            <p data-i18n="proposal_cta_desc">
+              Access the complete project specification submitted for the Graduation Project: "AgriShield (AgroVision) - A Proactive Decision-Support System for Precision Agriculture & Foliar Protection".
+            </p>
+          </div>
+          <div style="display:flex; gap:12px; flex-wrap:wrap;">
+            <a href="assets/AgriShield-Proposal.pdf" download="AgriShield - Graduation Project Proposal.pdf" class="btn-primary">
+              <i class="fa-solid fa-download"></i> <span data-i18n="btn_download_pdf">Download Proposal PDF (98 KB)</span>
+            </a>
+            <a href="assets/AgriShield-Proposal.pdf" target="_blank" class="btn-outline">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> <span data-i18n="btn_view_pdf">View PDF Document</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         PHOTO GALLERY & BOTANICAL INSPECTION STUDIO
+         ========================================================= -->
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-badge" data-i18n="gallery_badge">Visual Asset Studio</div>
+          <h2 class="section-title" data-i18n="gallery_title">High-Resolution Botanical Diagnostics</h2>
+          <p class="section-desc" data-i18n="gallery_desc">
+            All empirical assets provided for the AgriShield graduation project, exhibiting plant cellular morphology from leaf cuticle to underground rhizosphere.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Item 1: Cards Overview -->
+          <div class="gallery-item">
+            <img src="assets/plant_cards_overview.jpg" alt="Cross Sectional Infographic Analysis">
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-tag">Analytical Infographic • 1600x900</span>
+              <h4 class="gallery-item-title">Microscopic Cross-Sectional Breakdown</h4>
+              <p class="gallery-item-desc">Comprehensive layout mapping leaf stomata, stem honeycomb rings, xylem/phloem bundles, and root rhizosphere.</p>
+            </div>
+          </div>
+
+          <!-- Item 2: Hero Sprout -->
+          <div class="gallery-item">
+            <img src="assets/plant_seedling_hero.jpg" alt="Seedling Emergence">
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-tag">Growth Stage 1 • Foliar Health</span>
+              <h4 class="gallery-item-title">Young Seedling Vegetative Emergence</h4>
+              <p class="gallery-item-desc">Vibrant seedling in rich soil with sunlight penetration, symbolizing early proactive defense.</p>
+            </div>
+          </div>
+
+          <!-- Item 3: Dissected Clean Plant -->
+          <div class="gallery-item">
+            <img src="assets/plant_anatomy_clean.jpg" alt="Clean Horizontal Anatomy">
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-tag">Organism Layout • Modular Anatomy</span>
+              <h4 class="gallery-item-title">Exploded Horizontal Plant Morphology</h4>
+              <p class="gallery-item-desc">Horizontal dissection separating foliar photosynthesis canopy, vascular stem node, and soil root hairs.</p>
+            </div>
+          </div>
+
+          <!-- Item 4: Biology Quote -->
+          <div class="gallery-item">
+            <img src="assets/plant_biology_quote.jpg" alt="Botanical Definition Context">
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-tag">Biological Axiom • Academic Context</span>
+              <h4 class="gallery-item-title">Botanical Organism Functional Definition</h4>
+              <p class="gallery-item-desc">Living organism absorbing water and nutrients through roots, converting sunlight via photosynthesis in leaves.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       LIGHTBOX MODAL FOR FULL-RES INSPECTION
+       ========================================================= -->
+  <div id="modal-lightbox" class="modal-overlay">
+    <div class="modal-content-box">
+      <button id="btn-close-lightbox" class="btn-modal-close" title="Close Lightbox">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <img id="lightbox-img" class="modal-img" src="" alt="Enlarged Image">
+      <div class="modal-caption">
+        <h4 id="lightbox-caption" style="font-size:1.05rem;">Asset Inspection</h4>
+        <span class="telemetry-badge">AgriShield Asset</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="brand-title" style="font-size:1.4rem;">
+            <i class="fa-solid fa-shield-halved" style="color:var(--primary);"></i> AgriShield (AgroVision)
+          </div>
+          <p class="footer-desc">
+            A Proactive Decision-Support System for Precision Agriculture & Foliar Protection.<br>
+            Graduation Project Proposal 2026 • Domain: Precision Agriculture & Edge AI.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>System Pillars</h5>
+          <ul class="footer-links">
+            <li><a href="#pillars">Predictive Microclimate Analytics</a></li>
+            <li><a href="#pillars">Computer Vision & Foliar Pathology</a></li>
+            <li><a href="#pillars">Chemical & NPK Titration Engine</a></li>
+            <li><a href="#architecture">Human-in-the-Loop Gateway</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Graduation Deliverables</h5>
+          <ul class="footer-links">
+            <li><a href="#demos">Edge Vision Diagnostic Scanner</a></li>
+            <li><a href="#demos">Microclimate Incubation Predictor</a></li>
+            <li><a href="#demos">NPK Soil & Dosage Calculator</a></li>
+            <li><a href="assets/AgriShield-Proposal.pdf" target="_blank">Full Proposal PDF Document</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 AgriShield (AgroVision). All rights reserved. Graduation Project Proposal.</div>
+        <div style="display:flex; gap:16px;">
+          <span>Multimodal AI</span>
+          <span>Time-Series Ingestion</span>
+          <span>HITL Decision Support</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts: Local Three.js & OrbitControls with CDN Fallback -->
+  <script src="assets/vendor/three.min.js"></script>
+  <script src="assets/vendor/OrbitControls.js"></script>
+  
+  <!-- Fallback if local vendor is somehow blocked -->
+  <script>
+    if (typeof THREE === 'undefined') {
+      document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"><\/script>');
+      document.write('<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"><\/script>');
+    }
+  </script>
+
+  <!-- 3D Scene Controller -->
+  <script src="js/three-scene.js"></script>
+
+  <!-- Main Application Logic & Bilingual Controller -->
+  <script src="js/app.js"></script>
+</body>
+</html>
